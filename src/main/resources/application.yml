@@ -1,0 +1,35 @@
+wechat:
+  # 支付
+  app-id: wxd898fcb01713c658
+  mch-id: 1483469312
+  mch-key: 098F6BCD4621D373CADE4E832627B4F6
+  notify-url: http://mountain.cn1.utools.club/pay/notify
+  # 微信授权
+  my-app-id: wx6065db0a6269e359
+  my-app-secret: 9b9a7b2f64fc2bc13bf9dc747f737387
+  open-id: oTgZpwb54GGy0m3iQCu4RhCrCqWI
+  # 微信登录
+  open-app-id: wx6ad144e54af67d87
+  open-app-secret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+  # 授权后回跳外卖页面
+  buyer-home: http://192.168.1.4:80/#
+  # 微信登录后回跳管理界面
+  seller-home: http://localhost:80/#
+  # 获取买家信息
+  buyer-redirect: http://mountain.cn1.utools.club/wechat/userInfo
+  # 获取卖家信息
+  seller-redirect: http://mountain.cn1.utools.club/wechat/qrUserInfo
+  # 微信消息推送模板
+  template-id: nrnQjniAGFLKAK1Gs4Z9NNcDQ-dzEZxf1oNuQTyKXMw
+  open-ids:
+    - o9AREv3N6zvalf34_-DYY4kDHcWo
+
+spring:
+  data:
+    redis:
+      repositories:
+        enabled: false
+
+
+
+
